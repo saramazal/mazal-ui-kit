@@ -1,0 +1,25 @@
+.green-btn {
+    cursor: pointer;
+    font-family: 'Space Mono', 'Inconsolata', monospace;
+    padding: 5px;
+    width: 10em;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    background: transparent;
+}
+
+.pink-btn {
+    padding: 5px;
+    width: 10em;
+    color: #FF0099;
+    border: 2px solid #FF0099;
+    background: transparent;
+}
+
+.big-btn {
+    padding: 5px;
+    width: 10em;
+    color: #FFFFFF;
+    border: 2px solid #FF0099;
+    background-color: #FF0099;
+}

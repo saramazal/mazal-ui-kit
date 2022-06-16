@@ -1,0 +1,35 @@
+.storybook-button {
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Space Mono', 'Inconsolata', monospace;
+  padding: 5px;
+  width: 10em;
+  color: #00ffff;
+  border: 2px solid #00ffff;
+  background: transparent;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--primary {
+  color: #6E0DD0;
+  background-color: #ffffff;
+  border: 2px solid #6E0DD0;
+}
+.storybook-button--secondary {
+  color: #FFFFFF;
+    border: 2px solid #FF0099;
+    background-color: #FF0099;
+}
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

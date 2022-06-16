@@ -4,17 +4,22 @@ import './MyButton.css'
 export interface MyButtonProps {
   title: string;
   color: string;
-  big?: boolean;
+  pink?: boolean;
 }
 
-const MyButton: FC<MyButtonProps> = ({title, color, big, ...props}) => {
-  const rootClasses = ['green-btn']
-  if (big) {
-    rootClasses.push('big-btn')
+const MyButton: FC<MyButtonProps> = ({
+  title, 
+  color, 
+  pink, 
+  ...props
+}) => {
+  const rootClasses = ['green-mazal-btn']
+  if (pink) {
+    rootClasses.push('pink-mazal-btn')
   }
 
   return (
-    <button {...props} className={rootClasses.join(' ')} style={{color}}>
+    <button {...props} className={rootClasses.join(' ')} style={{color}} >
       {title}
     </button>
   )
